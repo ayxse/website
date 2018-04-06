@@ -17,7 +17,7 @@ body , h1 , span , a {
 
 .marqfade{
   transition: 0.5s;
-  font-size:5pt;
+  font-size:12.5pt;
   color:white;
 }
 
@@ -39,7 +39,7 @@ body , h1 , span , a {
 }
 
 .hangout{
-  font-size:12pt;
+  font-size:32pt;
   color: white;
   transition: 0.2s;
   letter-spacing: -3px;
@@ -52,12 +52,12 @@ body , h1 , span , a {
 .hangout:hover{
   color:#d1e2ff;
   transition: 0.3s;
-  font-size: 12pt;
+  font-size: 34pt;
 }
 
 .rip{
   color:#ff8282;
-  font-size:12pt;
+  font-size:68pt;
   transition: 0.2s;
   letter-spacing: -6px;
 }
@@ -65,7 +65,7 @@ body , h1 , span , a {
 
 .dot{
   color:white;
-  font-size: 12pt;
+  font-size: 32pt;
 }
 
 .mainlink{
@@ -78,7 +78,7 @@ body , h1 , span , a {
 
 span.mainlink:hover{
   color:white;
-  font-size:12pt;
+  font-size:16pt;
   transition-duration: 0.3s;
   letter-spacing: 3px;
   text-decoration: none;
@@ -90,7 +90,7 @@ span.mainlink:hover{
 }
 
 #biggerfont{
-  font-size: 7pt;
+  font-size: 14pt;
   padding-top:18px;
 }
 
@@ -101,7 +101,7 @@ span.mainlink:hover{
   font-variant: small-caps;
   padding-bottom: 15px;
   letter-spacing: 5px;
-  font-size: 8pt;
+  font-size: 14pt;
 }
 
 #bottomtext{
