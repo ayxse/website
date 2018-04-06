@@ -91,6 +91,23 @@ span.mainlink:hover{
 
 }
 
+.middlelink{
+  color:white;
+  transition: 0.2s;
+  font-family: sans-serif;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+span.middlelink:hover{
+  color:white;
+  font-size:16pt;
+  transition-duration: 0.3s;
+  letter-spacing: 3px;
+  text-decoration: none;
+
+}
+
 #line{
   color:white;
 }
@@ -110,22 +127,7 @@ span.mainlink:hover{
   font-size: 14pt;
 }
 
-#middletext{
-  color:white;
-  transition: 0.2s;
-  font-family: sans-serif;
-  text-decoration: none;
-  letter-spacing: 1px;
-}
 
-.middletext:hover{
-  color:white;
-  font-size:16pt;
-  transition-duration: 0.3s;
-  letter-spacing: 3px;
-  text-decoration: none;
-
-}
 
 #bottomtext{
   color: white;
