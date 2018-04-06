@@ -1,0 +1,155 @@
+body {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 11pt;
+    line-height: 30px;
+    text-decoration: none;
+    color:inherit;
+    top: 0;
+    left: 0;
+    }
+
+
+body , h1 , span , a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.marqfade{
+  transition: 0.5s;
+  font-size:12.5pt;
+  color:white;
+}
+
+.marqfade:hover{
+  color:#aa861b;
+  transition-duration: 0.01s;
+}
+
+.leftbrack{
+  margin-left: auto;
+}
+
+.error{
+  padding-bottom: 30px;
+}
+
+.gap{
+  padding-top: 350px;
+}
+
+.hangout{
+  font-size:32pt;
+  color: white;
+  transition: 0.2s;
+  letter-spacing: -3px;
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+
+.hangout:hover{
+  color:#d1e2ff;
+  transition: 0.3s;
+  font-size: 34pt;
+}
+
+.rip{
+  color:#ff8282;
+  font-size:68pt;
+  transition: 0.2s;
+  letter-spacing: -6px;
+}
+
+
+.dot{
+  color:white;
+  font-size: 32pt;
+}
+
+.mainlink{
+  color:white;
+  transition: 0.2s;
+  font-family: sans-serif;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+span.mainlink:hover{
+  color:white;
+  font-size:16pt;
+  transition-duration: 0.3s;
+  letter-spacing: 3px;
+  text-decoration: none;
+
+}
+
+#line{
+  color:white;
+}
+
+#biggerfont{
+  font-size: 14pt;
+  padding-top:18px;
+}
+
+#clock{
+  color:#7a2929;
+  font-family: monospace;
+  font-weight: bolder;
+  font-variant: small-caps;
+  padding-bottom: 15px;
+  letter-spacing: 5px;
+  font-size: 14pt;
+}
+
+#bottomtext{
+  color: white;
+  font-weight: 500;
+  transition: 3s;
+  letter-spacing: 2px;
+}
+
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
