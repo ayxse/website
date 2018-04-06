@@ -62,12 +62,6 @@ body , h1 , span , a {
   letter-spacing: -6px;
 }
 
-.cute{
-  color:#ff8282;
-  font-size:68pt;
-  transition: 0.2s;
-  letter-spacing: -6px;
-}
 
 .dot{
   color:white;
