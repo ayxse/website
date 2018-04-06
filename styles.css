@@ -39,7 +39,7 @@ body , h1 , span , a {
 }
 
 .hangout{
-  font-size:27pt;
+  font-size:24pt;
   color: white;
   transition: 0.2s;
   letter-spacing: -3px;
@@ -52,7 +52,7 @@ body , h1 , span , a {
 .hangout:hover{
   color:#d1e2ff;
   transition: 0.3s;
-  font-size: 29pt;
+  font-size: 27pt;
 }
 
 .rip{
