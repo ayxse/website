@@ -111,10 +111,11 @@ span.mainlink:hover{
 }
 
 #middletext{
-    color:white;
-    font-weight:500;
-    transition: 3s;
-    letter-spacing: 2px;
+  color:white;
+  transition: 0.2s;
+  font-family: sans-serif;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
 span.middletext:hover{
