@@ -117,6 +117,13 @@ span.mainlink:hover{
     letter-spacing: 2px;
 }
 
+span.middletext:hover{
+  color:white;
+  font-size:16pt;
+  transition-duration: 0.3s;
+  letter-spacing: 3px;
+  text-decoration: none;
+
 #bottomtext{
   color: white;
   font-weight: 500;
