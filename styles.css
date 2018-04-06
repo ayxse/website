@@ -62,6 +62,12 @@ body , h1 , span , a {
   letter-spacing: -6px;
 }
 
+.cute{
+  color:#ff8282;
+  font-size:68pt;
+  transition: 0.2s;
+  letter-spacing: -6px;
+}
 
 .dot{
   color:white;
@@ -102,6 +108,13 @@ span.mainlink:hover{
   padding-bottom: 15px;
   letter-spacing: 5px;
   font-size: 14pt;
+}
+
+#middletext{
+    color:white;
+    font-weight:500;
+    transition: 3s;
+    letter-spacing: 2px;
 }
 
 #bottomtext{
