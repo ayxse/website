@@ -1,7 +1,7 @@
 body {
     font-family: monospace;
     font-weight: bold;
-    font-size: 4pt;
+    font-size: 11pt;
     line-height: 30px;
     text-decoration: none;
     color:inherit;
@@ -17,7 +17,7 @@ body , h1 , span , a {
 
 .marqfade{
   transition: 0.5s;
-  font-size:12.5pt;
+  font-size:5pt;
   color:white;
 }
 
@@ -78,7 +78,7 @@ body , h1 , span , a {
 
 span.mainlink:hover{
   color:white;
-  font-size:16pt;
+  font-size:12pt;
   transition-duration: 0.3s;
   letter-spacing: 3px;
   text-decoration: none;
@@ -90,7 +90,7 @@ span.mainlink:hover{
 }
 
 #biggerfont{
-  font-size: 14pt;
+  font-size: 7pt;
   padding-top:18px;
 }
 
@@ -101,7 +101,7 @@ span.mainlink:hover{
   font-variant: small-caps;
   padding-bottom: 15px;
   letter-spacing: 5px;
-  font-size: 14pt;
+  font-size: 8pt;
 }
 
 #bottomtext{
