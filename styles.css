@@ -93,13 +93,12 @@ span.mainlink:hover{
   letter-spacing: 1px;
 }
 
-span.middlelink:hover{
+.middlelink:hover{
   color:white;
   font-size:16pt;
   transition-duration: 0.3s;
   letter-spacing: 3px;
   text-decoration: none;
-
 }
 
 #line{
